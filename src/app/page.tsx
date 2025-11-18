@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import { Award, HelpCircle, MessageSquare, Target, Trophy, Zap } from "lucide-react";
@@ -228,7 +228,7 @@ export default function Page() {
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1763472069643-7n3pj49d.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1763472071020-qszdg10l.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1763472072474-q2xghy7n.jpg"
-          ]
+          ]}
           speed={45}
           showCard={true}
         />
